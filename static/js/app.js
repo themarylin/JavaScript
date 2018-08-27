@@ -28,7 +28,6 @@ function myFunction(item) {
 }
 // Select the submit button
 var submit = d3.select("#submit");
-var clear = d3.select("clear");
 submit.on("click", function () {
     // Prevent the page from refreshing
     d3.event.preventDefault();
